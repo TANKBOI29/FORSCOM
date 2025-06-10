@@ -2,6 +2,7 @@
   "name": "usar-web",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://tankboi29.github.io/FORSCOM",
   "type": "module",
   "scripts": {
     "dev": "vite",
