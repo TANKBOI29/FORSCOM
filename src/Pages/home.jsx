@@ -22,7 +22,7 @@ function Home(){
           <div id="units" className="flex h-full justify-center items-center bg-transparent">
             <Unit/>
           </div>
-          <div id="units" className="flex h-full justify-center items-center bg-transparent">
+          <div id="propaganda" className="flex h-full justify-center items-center bg-transparent">
             <Propaganda/>
           </div>
     
