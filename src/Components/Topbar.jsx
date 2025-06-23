@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaInfoCircle, FaUsers, FaImage } from 'react-icons/fa';
 import '/src/index.css'
+import forscomLogo from './Assets/img/forscom-logo.png';
 
 function scrollToSection(id) {
   const el = document.getElementById(id);
@@ -15,7 +16,7 @@ function Topbar() {
       {/* Left: Logo and Title */}
       <div className="flex items-center space-x-2">
         <img
-          src="/src/Components/Assets/img/forscom-logo.png"
+          src={forscomLogo}
           alt="Logo"
           className="h-8"
         />
