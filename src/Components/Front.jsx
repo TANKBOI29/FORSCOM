@@ -1,11 +1,12 @@
 import React from 'react';
+import frontImage from './Assets/img/test-front.png';
 
 const Front = () => {
     return (
         <div className="relative w-full h-screen flex items-center justify-center bg-black overflow-hidden">
             {/* Background Image */}
             <img
-                src="/src/Components/Assets/img/test-front.png"
+                src={frontImage}
                 alt="forscom-logo"
                 className="absolute inset-0 w-full h-full object-cover  pointer-events-none select-none"
                 style={{zIndex: 0}}

@@ -1,6 +1,10 @@
 import React from 'react';
 import { FaInfoCircle, FaUsers, FaImage } from 'react-icons/fa';
 import '/src/index.css'
+import IDProp from './Assets/img/infantry.png';
+import ParaProp from './Assets/img/parachute-prop.png';
+import CavProp from './Assets/img/cavarly.png';
+import SkyProp from './Assets/img/sky-prop.jpg';
 
 function Propaganda() {
     return (
@@ -38,28 +42,28 @@ function Propaganda() {
             <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {/* Image Card 1 */}
                 <div className="bg-black/70 border-2 border-green-700 rounded-lg overflow-hidden shadow-lg flex flex-col">
-                    <img className="w-full h-40 object-cover" src="/src/Components/Assets/img/infantry.png" alt="1ID" />
+                    <img className="w-full h-40 object-cover" src={IDProp} alt="1ID" />
                     <div className="p-4 flex-1 flex flex-col justify-between">
                         <div className="text-green-700 font-bold text-base">1st Infantry Division</div>
                     </div>
                 </div>
                 {/* Image Card 2 */}
                 <div className="bg-black/70 border-2 border-yellow-500 rounded-lg overflow-hidden shadow-lg flex flex-col">
-                    <img className="w-full h-40 object-cover" src="/src/Components/Assets/img/cavarly.png" alt="1CAV" />
+                    <img className="w-full h-40 object-cover" src={CavProp} alt="1CAV" />
                     <div className="p-4 flex-1 flex flex-col justify-between">
                         <div className="text-yellow-500 font-bold text-base">1st Cavarly Division</div>
                     </div>
                 </div>
                 {/* Image Card 3 */}
                 <div className="bg-black/70 border-2 border-blue-700 rounded-lg overflow-hidden shadow-lg flex flex-col">
-                    <img className="w-full h-40 object-cover" src="/src/Components/Assets/img/sky-prop.jpg" alt="101ST" />
+                    <img className="w-full h-40 object-cover" src={SkyProp} alt="101ST" />
                     <div className="p-4 flex-1 flex flex-col justify-between">
                         <div className="text-blue-700 font-bold text-base">101st Airborne Division</div>
                     </div>
                 </div>
                 {/* Image Card 4 */}
                 <div className="bg-black/70 border-2 border-red-700 rounded-lg overflow-hidden shadow-lg flex flex-col">
-                    <img className="w-full h-40 object-cover" src="/src/Components/Assets/img/parachute-prop.png" alt="82ND" />
+                    <img className="w-full h-40 object-cover" src={ParaProp} alt="82ND" />
                     <div className="p-4 flex-1 flex flex-col justify-between">
                         <div className="text-red-700 font-bold text-base">82nd Airborne Division</div>
                     </div>
